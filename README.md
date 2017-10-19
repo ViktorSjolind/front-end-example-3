@@ -1,3 +1,3 @@
 # front-end-example-3
 
-![Alt text](Capture.png?raw=true "Example")
+![Picture of project](Capture.PNG?raw=true "Example")
