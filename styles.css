@@ -16,9 +16,8 @@ body {
 
 }
 
-.container{    
+#container{    
     background-color: #fff;
-    /* what makes it look good */
     max-width: 900px;
     margin: 0 auto;
     padding: 0 60px;
@@ -38,14 +37,14 @@ header{
     display: flex;
     /* items in the corner */
     justify-content: space-between;
+    align-items: baseline;
 }
 
 header nav {
-    list-style: none;
-    
+    list-style: none;    
     /* places li next to each other instead of under */
     display: flex;
-    align-items: baseline;
+    
 }
 
 header nav li {
@@ -62,54 +61,44 @@ header button{
     text-transform: uppercase;
 }
 
-
-
-
-.main-and-sidebar-wrapper{
+#main-and-sidebar-wrapper{
     display: flex;
     
    
 }
 
-.main{    
+article{    
     text-align: center;
     margin-right: 60px;
-    flex: 3;
+    flex: 5;
 }
 
-.main h2{
+article h2{
     font-size: 32px;
     margin-bottom: 55px;
 }
 
-.main p{
+article p{
    
     margin-bottom: 30px;
 }
 
-.main img{
+article img{
     width: 100%;
 }
 
 
-.sidebar{
+#sidebar{
     border: 1px solid #a2a2a2;
     padding: 20px;
-    flex: 
+    flex: 1;
 }
-
-
-
-
-
-
-
 
 footer{
     color: #ef5350;
     text-align: center;
-    padding: 20px 0;
     margin-top: 60px;
+
 }
 
 footer p{
@@ -120,11 +109,11 @@ footer p{
 
 
 @media (max-width: 600px){
-    .main-and-sidebar-wrapper{
+    #main-and-sidebar-wrapper{
         flex-direction: column;
     }
     
-    .main{
+    article{
         margin-right: 0px;
         margin-bottom: 60px;
     }
